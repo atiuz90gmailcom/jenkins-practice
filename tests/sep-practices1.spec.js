@@ -61,7 +61,7 @@ test.describe("Start Application Page Test Group @sep01", () => {
     let nextButton = page.locator("//button[@type='submit']");
     await nextButton.click();
 
-    await page.waitForTimeout(3000);
+    //await page.waitForTimeout(3000);
     //await expect(step1StepperCircle).toHaveCSS("background-color", "rgb(172, 245, 138)");
     await expect(step1StepperCircle).toHaveCSS("background-color","rgb(1, 201, 255)");
 
