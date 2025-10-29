@@ -62,7 +62,7 @@ test.describe("Start Application Page Test Group @sep01", () => {
     await nextButton.click();
 
     //await page.waitForTimeout(3000);
-     expect(step1StepperCircle).toHaveCSS("background-color", "rgb(172, 245, 138)");
+    await expect(step1StepperCircle).toHaveCSS("background-color", "rgb(172, 245, 138)");
     //await expect(step1StepperCircle).toHaveCSS("background-color","rgb(1, 201, 255)");
 
   }); 
