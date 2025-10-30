@@ -60,11 +60,13 @@ test.describe("Payment Plans Test Group @sep02", () => {
 
 
   test("Verify Clicking the active next button will change the stepper 2 color to green", async ({ page }) => {
+    
     let upfrontpaymentPlanOption = page.locator("//mat-expansion-panel[.//span[@class='payment-type' and text()=' Upfront ']]");
     await upfrontpaymentPlanOption.click();
 
     let activeNextButton = page.locator("//button[contains(@class, 'next-button') and text()='Next']");
     await activeNextButton.click();
+
     let step2StepperCircle = page.locator("//div[@class='step-circle' and span[text()='2']]");
     await expect(step2StepperCircle).toHaveCSS("background-color", "rgb(172, 245, 138)");
 
