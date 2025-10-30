@@ -33,8 +33,9 @@ test.describe("Payment Plans Test Group @sep02", () => {
     let step1StepperCircle = page.locator("//div[@class='step-circle' and span[text()='1']]");
     let step2StepperCircle = page.locator("//div[@class='step-circle' and span[text()='2']]");
 
+    await expect(step1StepperCircle).toHaveCSS("background-color","rgb(172, 245, 138)");
     await expect(step2StepperCircle).toHaveCSS("background-color", "rgb(1, 201, 255)");
-    await expect(step1StepperCircle).toHaveCSS("background-color", "rgb(172, 245, 138)");
+    
 
   });
 
