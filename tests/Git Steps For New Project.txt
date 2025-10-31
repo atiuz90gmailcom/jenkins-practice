@@ -1,8 +1,17 @@
 For New Project:
-    1. Termnal => git init: OR VSCode => Go to "Source Control" window ===> Click "Initialize Repository"
-    2. Termnal => git add .: OR VSCode => Go to "Source Control" window ===> Press the "+" button on changes 
-    3. Termnal => git commit -m "message": OR VSCode => Go to "Source Control" window ===> Enter commit message and press "Commit" button
+    1. Termnal => git init: 
+        OR 
+       VSCode => Go to "Source Control" window ===> Click "Initialize Repository"
+
+    2. Termnal => git add .: 
+        OR 
+       VSCode => Go to "Source Control" window ===> Press the "+" button on changes 
+
+    3. Termnal => git commit -m "message": 
+        OR 
+       VSCode => Go to "Source Control" window ===> Enter commit message and press "Commit" button
+
     4. Termnal => git branch -M master & git remote add "URL": 
-        OR VSCode =>    
-        Go to "Source Control" window ===> click "..." ====> Remote ===> Add Remote ===> 
-            ==> Paste The Repository URL ====> give name "origins" ====> press Enter
+        OR 
+       VSCode => Go to "Source Control" window ===> click "..." ====> Remote ===> Add Remote ===> 
+            ===> Paste The Repository URL ====> give name "origins" ====> press Enter
