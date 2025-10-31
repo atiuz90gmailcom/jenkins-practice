@@ -15,7 +15,7 @@ test.describe("Start Application Page Test Group @sep01", () => {
     let windowPopupEventListener = page.waitForEvent("popup");
 
     let termsAndConditionsLink = page.locator("//a[text()='Terms and conditions']");
-    //let termsAndConditionsLink = page.locator("//a[text()='Terms and conditions']");
+    ///let termsAndConditionsLink = page.locator("//a[text()='Terms and conditions']");
 
     await expect(termsAndConditionsLink).toBeEnabled();
 
